@@ -1,44 +1,34 @@
 # Prova-backend
 
-Siga as instruções abaixo para executar e testar cada um dos exercícios:
+Este repositório contém exercícios e uma API back-end.
 
-E.1 Maior String
-Este exercício consiste em uma função que recebe duas strings e retorna a maior delas.
+## Como Executar os Exercícios
 
-`node E1.js`
+Cada exercício pode ser executado individualmente usando o Node.js. Siga as instruções abaixo para cada exercício:
 
-E.2 - Aplicar Função
-Neste exercício, você encontrará uma função que aplica outra função a duas strings e exibe o resultado.
+- E.1 Maior String: `node E1.js`
+- E.2 Aplicar Função: `node E2.js`
+- E.3 Imprimir Strings: `node E3.js`
+- E.4 Substituir Números: `node E4.js`
+- E.5 Substituir Números por Valores: `node E5.js`
+- E.6 até E.11 Exercícios com Arrays: `node E6.js`, `node E7.js`, `node E8.js`, `node E9.js`, `node E10.js`, `node E11.js`
+- E.12 Remover Documento: `node E12.js`
 
-`node E2.js`
+## Desafio Back-end
 
-E.3 - Imprimir Strings
-A função neste exercício recebe várias strings como argumentos e as imprime todas juntas.
+O desafio back-end está localizado na pasta "src". Siga as instruções dentro dessa pasta para executar e testar.
 
-`node E3.js`
+## Exemplos de Uso
 
-E.4 - Substituir Números
-Este exercício requer uma função que substitui todas as ocorrências de números em uma string pelo valor '[removido]'.
+Para cada exercício, aqui estão alguns exemplos de entrada e saída:
 
-`node E4.js`
+- E.1 Maior String:
 
-E.5 - Substituir Números por Valores
-Aqui, você encontrará uma função que substitui os números em uma string pelos valores correspondentes de um dicionário fornecido.
+  - Entrada: "banana", "maçã"
+  - Saída: "banana"
 
-`node E5.js`
+- E.2 Aplicar Função:
+  - Entrada: "Olá", "Mundo", toUpperCase
+  - Saída: "OLÁ MUNDO"
 
-E.6 até E.11 - Exercícios com Arrays
-Esses exercícios são de manipulação array.
-
-`node E6.js`
-`node E7.js`
-`node E8.js`
-`node E9.js`
-`node E10.js`
-`node E11.js`
-
-E.12 Remover Documento
-
-`node E12.js`
-
-#Desafio Back-end esta na pasta desafio
+...
