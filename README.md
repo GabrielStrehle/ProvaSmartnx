@@ -2,6 +2,19 @@
 
 Este repositório contém exercícios e uma API back-end.
 
+## Tecnologias Utilizadas
+
+- Node.js: Plataforma de desenvolvimento de aplicativos server-side em JavaScript.
+- Docker: Plataforma para desenvolvimento, envio e execução de aplicativos em contêineres.
+- Sequelize: ORM (Object-Relational Mapping) para Node.js baseado em Promises.
+- MySQL: Sistema de gerenciamento de banco de dados relacional.
+
+## Instalação
+
+1. Clone este repositório: `git clone https://github.com/GabrielStrehle/ProvaSmartnx.git`
+2. Navegue até o diretório do projeto: `cd ProvaSmartnx`
+3. Instale as dependências: `npm install`
+
 ## Como Executar os Exercícios
 
 Cada exercício pode ser executado individualmente usando o Node.js. Siga as instruções abaixo para cada exercício:
@@ -32,3 +45,10 @@ Para cada exercício, aqui estão alguns exemplos de entrada e saída:
   - Saída: "OLÁ MUNDO"
 
 ...
+
+## Contato
+
+Se você tiver alguma dúvida ou sugestão, entre em contato:
+
+Email: gabrielstrehle@gmail.com
+GitHub: GabrielStrehle
