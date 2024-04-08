@@ -1,4 +1,4 @@
-module.exports = {
+/*module.exports = {
   up: async (queryInterface, Sequelize) =>
     queryInterface.bulkInsert("Posts", [
       {
@@ -17,3 +17,4 @@ module.exports = {
 
   async down(queryInterface, Sequelize) {},
 };
+*/
