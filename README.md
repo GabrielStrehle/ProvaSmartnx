@@ -100,11 +100,10 @@ Agora, o banco de dados está configurado e o servidor Express está em execuç�
  ```
  Nota: A chave `body` é obrigatória para cadastrar um novo comentário em um post. 
 
-- **Excluir um comentário em um post específico**:
+- **Excluir todos comentários em um post**:
 - Método: DELETE
-- URL: `http://localhost:3001/posts/:postId/comments/:commentId`
-- Descrição: Exclui o comentário especificado em um post.
-
+- URL: `http://localhost:3001/posts/:postId/comments`
+- Descrição: Exclui todos comentários em um post
 ## Execícios Back-end
 
 Cada exercício pode ser executado individualmente usando o Node.js. Siga as instruções abaixo para cada exercício:
