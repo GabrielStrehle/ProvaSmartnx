@@ -102,7 +102,9 @@ Agora, o banco de dados está configurado e o servidor Express está em execuç�
   ### Excluir um comentário de um post:
    
 - Entrar na pasta seeders/20240406213250-comments.js
+- Usando o terminal "Git Bash"
 - Execute o comando alterando apenas o id:
+
 - `COMMENT_ID_TO_DELETE=id npx sequelize db:seed:undo:all`
 
 
