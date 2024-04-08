@@ -17,7 +17,7 @@ Para garantir o funcionamento adequado da API, é necessário ter o MySQL em exe
 
 1. Execute o seguinte comando no seu terminal:
 
-    ```bash
+    ```
     docker container run --name nome-do-container -e MYSQL_ROOT_PASSWORD=sua_senha -d -p 3306:3306 mysql:8.0.29
     ```
 Este comando criará e iniciará um contêiner com o MySQL.
@@ -43,7 +43,7 @@ Com o MySQL configurado e em execução, siga os passos abaixo:
 
 
     ```
-    Node src/server.js
+    node src/server.js
     ```
 
 Agora, o banco de dados está configurado e o servidor Express está em execução. Você pode começar a usar a API conforme necessário.
@@ -99,7 +99,7 @@ Agora, o banco de dados está configurado e o servidor Express está em execuç�
 - Descrição: Exclui todos comentários em um post
 ## Execícios Back-end
 
-Cada exercício pode ser executado individualmente usando o Node.js. Siga as instruções abaixo para cada exercício:
+Cada exercício pode ser executado individualmente usando o Node.js. Siga as instruções:
 
 - **E.1 Maior String**: `node E1.js`
 - **E.2 Aplicar Função**: `node E2.js`
