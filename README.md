@@ -85,19 +85,24 @@ Agora, o banco de dados está configurado e o servidor Express está em execuç�
 - **Cadastrar um novo comentário em um post específico**:
 - Entrar na pasta seeders/20240406213250-comments.js
 - Mudando o conteudo pre colocado:
-- {
-          postId: 8,
-          body: "testando comment",
-          createdAt: Sequelize.literal("CURRENT_TIMESTAMP"),
-          updatedAt: Sequelize.literal("CURRENT_TIMESTAMP"),
-        }
+
+- ```js
+  {
+      postId: 8,
+      body: "testando comment",
+      createdAt: Sequelize.literal("CURRENT_TIMESTAMP"),
+      updatedAt: Sequelize.literal("CURRENT_TIMESTAMP"),
+  }
+  ```
 - Basta alterar a seed data por qual comentario voce quer enviar e dar o comando:
 -`npx sequelize db:seed:all`
 
-- **Excluir um comentário de um post**:
+
+
+  ### Excluir um comentário de um post:
+   
 - Entrar na pasta seeders/20240406213250-comments.js
 - Execute o comando alterando apenas o id:
-- 
 - `COMMENT_ID_TO_DELETE=id npx sequelize db:seed:undo:all`
 
 
