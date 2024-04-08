@@ -98,7 +98,7 @@ Agora, o banco de dados está configurado e o servidor Express está em execuç�
      "body": "string"
  }
  ```
- Nota: A chave `body` é obrigatória para cadastrar um novo comentário em um post. A chave `user` é opcional para publicar um comentário anônimo.
+ Nota: A chave `body` é obrigatória para cadastrar um novo comentário em um post. 
 
 - **Excluir um comentário em um post específico**:
 - Método: DELETE
