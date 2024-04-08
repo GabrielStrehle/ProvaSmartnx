@@ -80,7 +80,7 @@ Agora, o banco de dados está configurado e o servidor Express está em execuç�
 - URL: `http://localhost:3001/posts/:postId`
 - Descrição: Exclui o post com o ID especificado.
 
-### Endpoints de Comentários
+### Adicionando e removendo comments:
 
 #### Cadastrar um novo comentário em um post específico:
 
