@@ -82,30 +82,21 @@ Agora, o banco de dados está configurado e o servidor Express está em execuç�
 
 ### Endpoints de Comentários
 
-- **Cadastrar um novo comentário em um post específico**:
-- Entrar na pasta seeders/20240406213250-comments.js
-- Mudando o conteudo pre colocado:
+#### Cadastrar um novo comentário em um post específico:
 
-- ```js
-  {
-      postId: 8,
-      body: "testando comment",
-      createdAt: Sequelize.literal("CURRENT_TIMESTAMP"),
-      updatedAt: Sequelize.literal("CURRENT_TIMESTAMP"),
-  }
-  ```
-- Basta alterar a seed data por qual comentario voce quer enviar e dar o comando:
--`npx sequelize db:seed:all`
+1. Entre na pasta `seeders` e localize o arquivo `20240406213250-comments.js`.
+2. Abra o arquivo `20240406213250-comments.js` em um editor de texto.
+3. Modifique o conteúdo da seed data para refletir o novo comentário que você deseja inserir, incluindo o `postId` correspondente ao post onde você quer adicionar o comentário.
+4. Salve as alterações no arquivo.
+5. No terminal, execute o comando `npx sequelize db:seed:all` para executar todos os seeders, incluindo o seeder de comentários recém-atualizado.
 
+#### Excluir um comentário de um post:
 
+1. Entre na pasta `seeders` e localize o arquivo `20240406213250-comments.js`.
+2. No terminal, execute o comando para excluir o comentário desejado, substituindo `id` pelo ID do comentário que você quer excluir:
 
-  ### Excluir um comentário de um post:
-   
-- Entrar na pasta seeders/20240406213250-comments.js
-- Usando o terminal "Git Bash"
-- Execute o comando alterando apenas o id:
-
-- `COMMENT_ID_TO_DELETE=id npx sequelize db:seed:undo:all`
+   ```bash
+   COMMENT_ID_TO_DELETE=id npx sequelize db:seed:undo:all
 
 
 Cada exercício pode ser executado individualmente usando o Node.js. Siga as instruções:
