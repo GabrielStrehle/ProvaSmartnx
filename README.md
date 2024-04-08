@@ -91,13 +91,15 @@ Agora, o banco de dados está configurado e o servidor Express está em execuç�
           createdAt: Sequelize.literal("CURRENT_TIMESTAMP"),
           updatedAt: Sequelize.literal("CURRENT_TIMESTAMP"),
         }
+- Basta alterar a seed data por qual comentario voce quer enviar e dar o comando:
 -`npx sequelize db:seed:all`
 
-- **Excluir todos comentários em um post**:
-- Método: DELETE
-- URL: `http://localhost:3001/posts/:postId/comments`
-- Descrição: Exclui todos comentários em um post
-## Execícios Back-end
+- **Excluir um comentário de um post**:
+- Entrar na pasta seeders/20240406213250-comments.js
+- Execute o comando alterando apenas o id:
+- 
+- `COMMENT_ID_TO_DELETE=id npx sequelize db:seed:undo:all`
+
 
 Cada exercício pode ser executado individualmente usando o Node.js. Siga as instruções:
 
