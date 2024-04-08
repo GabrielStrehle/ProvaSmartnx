@@ -43,7 +43,7 @@ Com o MySQL configurado e em execução, siga os passos abaixo:
 
 
     ```
-    npm start
+    Node src/server.js
     ```
 
 Agora, o banco de dados está configurado e o servidor Express está em execução. Você pode começar a usar a API conforme necessário.
@@ -83,16 +83,15 @@ Agora, o banco de dados está configurado e o servidor Express está em execuç�
 ### Endpoints de Comentários
 
 - **Cadastrar um novo comentário em um post específico**:
-- Método: POST
-- URL: `http://localhost:3001/posts/:postId/comments`
-- Descrição: Cadastra um novo comentário em um post.
-- Corpo da Requisição (JSON):
- ```json
- {
-     "body": "string"
- }
- ```
- Nota: A chave `body` é obrigatória para cadastrar um novo comentário em um post. 
+- Entrar na pasta seeders/20240406213250-comments.js
+- Mudando o conteudo pre colocado:
+- {
+          postId: 8,
+          body: "testando comment",
+          createdAt: Sequelize.literal("CURRENT_TIMESTAMP"),
+          updatedAt: Sequelize.literal("CURRENT_TIMESTAMP"),
+        }
+-`npx sequelize db:seed:all`
 
 - **Excluir todos comentários em um post**:
 - Método: DELETE
