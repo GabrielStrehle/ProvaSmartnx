@@ -35,12 +35,6 @@ Com o MySQL configurado e em execução, siga os passos abaixo:
 1. Para criar o banco de dados, execute o seguinte comando no terminal:
 
 
-    ```
-    npm run db
-    ```
-
-Este comando executará uma sequência de comandos, que são eles:
-
 - `npx sequelize db:create`: responsável por criar o banco de dados.
 - `npx sequelize db:migrate`: cria as tabelas do banco de dados.
 - `npx sequelize db:seed:all`: popula as tabelas do banco de dados.
